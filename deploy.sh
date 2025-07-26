@@ -28,7 +28,7 @@ git commit -m "${msg}"
 
 echo -e "\n"
 echo $githubUrl
-git branch -m master main
+#git branch -m master main
 # 参考博文地址: https://blog.csdn.net/u014361280/article/details/109703556
 
 # git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
